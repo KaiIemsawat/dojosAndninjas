@@ -1,0 +1,46 @@
+/* Main */
+
+*{
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.topPart {
+	width: 80%;
+	margin: 24px;
+}
+
+.dojoNames {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 30%;
+	margin: 12px;
+}
+
+
+/* Dojo Details */
+table {
+	border: 2px solid #222222;
+	width: 80%;
+	margin: 25px 12px;
+}
+
+th {
+	background-color: #aaaaaa
+}
+
+
+td, th {
+	padding: 3px 15px;
+	text-align: center;
+	border-right: 2px solid #222222;
+}
+
+tr:nth-child(odd) {
+	background-color: #dddddd;
+}
